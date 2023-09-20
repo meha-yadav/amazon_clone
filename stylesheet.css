@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*border: border-box;*/
+}
+/**NAVIGATION**/
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    height: 37px;
+    width: 100px;
+    margin-top: 0.5rem;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border-color: white;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+
+#location{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+#location1{
+    display:inline;
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;    
+}
+
+.location{
+    margin-bottom:5px;
+}
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center; /**row wise**/
+    align-items: center; /**column wise **/
+    font-size: 1.3rem;
+    background-color: rgb(247, 177, 39);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(247, 177, 39);
+}
+
+.nav-lang{
+    display:flex;
+    justify-content:end;
+    align-items: end ;   
+    margin-top:15px;
+}
+
+.flag{
+    background-image: url("flag_india.jpg");
+    background-size: cover;
+    height: 14px;
+    width: 21px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}
+
+.language{
+    font-size: 0.85rem;
+    /**color: #d6d6d6;**/
+    font-weight: 700;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+
+}
+
+.nav-cart{
+    font-size: 0.83rem;
+    font-weight: 700;
+}
+
+/**PANEL**/
+
+.panel{
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 14px;
+    padding-left: 8px;
+    
+
+}
+
+.panel-all{
+    font-size: 1rem;
+    font-weight: 700;
+    font-weight: 700;
+}
+
+.panel-ops p{  
+    display:inline;
+    margin:1rem;
+}
+
+.panel-ops{
+    width: 70%;  
+}
+
+.panel-deal{
+    font-weight: 700;
+
+
+}
+
+/** HERO SECTION **/
+
+.hero-section{
+    background-image: url("amazon_cover.jpg");
+    background-size: cover ;
+    height: 300px;
+    display:flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.hero-message{
+    height: 50px;
+    background-color: #f5f6f6;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+/**SHOPPING BOXES**/
+
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e6e7;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+.box1-image{
+    background-image: url("electronics.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform .2s; /* Animation */
+
+
+}
+h2, .section{
+    margin-left: 14%;
+}
+
+h2{
+    margin-top: 6%;
+}
+
+
+.section{
+    color:blueviolet;
+}
+
+.box2-image{
+    background-image: url("beauty.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform .2s; /* Animation */
+
+  
+}
+.box3-image{
+    background-image: url("clothing.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform .2s; /* Animation */
+
+}
+.box4-image{
+    background-image: url("school.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform 0.2s; /* Animation */
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+.box-a:hover{
+    transform: scale(1.1);
+   
+}
+.shop-section2{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e6e7;
+    padding-top:10px;
+}
+.box5-image{
+    background-image: url("fitness.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform .2s; /* Animation */
+}
+.box6-image{
+    background-image: url("laptop.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform .2s; /* Animation */
+}
+.box7-image{
+    background-image: url("toys.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform .2s; /* Animation */
+}
+.box8-image{
+    background-image: url("light.jpg") ;
+    background-size: cover;
+    height: 300px;
+    margin:18px 18px 18px 18px;
+    transition: transform 0.2s; /* Animation */
+}
